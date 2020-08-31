@@ -1,0 +1,16 @@
+phrase = "Lions barrage"
+phrase1 = "uzumaki barrage"
+print(phrase.upper())
+print(phrase1.lower())
+print(phrase1.upper().isupper())
+print(phrase.lower().islower())
+print(phrase1.isupper())
+print()
+print(len(phrase))
+print(len(phrase1))
+print(phrase[0])
+print(phrase1[1])
+print(phrase.index("L"))
+print(phrase1.index("z"))
+print(phrase1.replace("uzumaki","rasengan"))
+print(phrase.replace("Lions","fire ball"))
